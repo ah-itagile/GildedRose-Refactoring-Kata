@@ -85,13 +85,7 @@ namespace csharp
 
         private static void updateSulfuras(Item item)
         {
-            if (item.SellIn < 0)
-            {
-                if (item.Quality < 50)
-                {
-                    item.Quality = item.Quality + 1;
-                }
-            }
+         
         }
 
         private static void update(Item item)
